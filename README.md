@@ -7,6 +7,14 @@
 - Minimalist & user-friendly interface
 - Local install
 
+## Colab Using
+
+---
+Colab: <a target="_blank" href="https://colab.research.google.com/github/ehristoforu/Rensor/blob/main/colab/Rensor-colab.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+---
+
 ## Installation Instructions for GPU:
 1. Install Python 3.11.x and Git
 2. Run `git clone https://huggingface.co/spaces/ehristoforu/Rensor` in CMD
