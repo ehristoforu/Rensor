@@ -1,13 +1,3 @@
----
-title: Rensor
-emoji: 🐧
-colorFrom: purple
-colorTo: indigo
-sdk: static
-pinned: true
-license: other
----
-
 # Rensor - Stable Diffusion UI
 
 <img src="assets/preview.png" alt="Stable Diffusion - Rensor Image" width="50%" height="auto">
