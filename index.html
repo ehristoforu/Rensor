@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rensor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 40px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1, h2 {
+            color: #008080;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+        }
+
+        .advantages {
+            margin-top: 20px;
+        }
+
+        .installation-instructions {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Rensor</h1>
+
+    <img src="assets/preview.png" alt="Stable Diffusion - Rensor Image">
+
+    <div class="advantages">
+        <h2>Advantages:</h2>
+        <ul>
+            <li>Very speed inference</li>
+            <li>Minimalist & user-friendly interface</li>
+            <li>Local install</li>
+        </ul>
+    </div>
+
+    <div class="installation-instructions">
+        <h2>Installation Instructions for GPU:</h2>
+        <ol>
+            <li>Install Python 3.11.x and Git</li>
+            <li>Run <code>git clone https://huggingface.co/spaces/ehristoforu/Rensor</code> in CMD</li>
+            <li>Open project folder and open folder "pip" and run <code>install-or-update.bat</code></li>
+            <li>Open project folder and open folder "requests" and run <code>request-to-model-gpu.bat</code></li>
+            <li>Open project folder and run <code>_run-gpu.bat</code></li>
+            <li>Wait and open <code>127.0.0.1:5555</code> in browser</li>
+            <li>Enjoy using Rensor!</li>
+        </ol>
+    </div>
+    <div class="installation-instructions">
+        <h2>Installation Instructions for CPU:</h2>
+        <ol>
+            <li>Install Python 3.11.x and Git</li>
+            <li>Run <code>git clone https://huggingface.co/spaces/ehristoforu/Rensor</code> in CMD</li>
+            <li>Open project folder and open folder "pip" and run <code>install-or-update.bat</code></li>
+            <li>Open project folder and run <code>install-model-cpu.bat</code></li>
+            <li>Open project folder and run <code>_run-cpu.bat</code></li>
+            <li>Wait and enter width & height for image generation in console (width / 8 == 0 and height / 8 ==0)</li>
+            <li>Wait and open <code>127.0.0.1:5555</code> in browser</li>
+            <li>Enjoy using Rensor!</li>
+        </ol>
+    </div>
+    
+</body>
+</html>
